@@ -2,7 +2,7 @@ const filtrarYTransformar = (arreglo) => {
     arreglo = arreglo.filter(num => num >= 0 )
     let sumatoria = 0
     arreglo.forEach((num, i) => {
-         sumatoria+=num*num
+        sumatoria+=num*num
     })
     return sumatoria
 }
